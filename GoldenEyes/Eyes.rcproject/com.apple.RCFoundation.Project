@@ -1,0 +1,341 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "name" : "face"
+              },
+              "behaviors" : [
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:com.apple.rc.audio.sound-effects.tube-hit-fx-01\/%E7%AE%A1%E6%95%B2%E5%87%BB%E6%95%88%E6%9E%9C01.caf",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "C9E18D63-197A-4A16-9084-3D03A2EB437F",
+                                            "3731CFDC-2048-45D1-80A7-535712B677E1"
+                                          ],
+                                          "volume" : 0.5
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "ECAC29BC-8DCF-46DF-9F28-AAC3C0CA5EE6",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "D13AD118-E599-4E7E-A4F0-49DE8FF83F13",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.364705890417099,
+                        0.74117648601531982,
+                        0.69019609689712524,
+                        1
+                      ],
+                      "identifier" : "E232C4DE-79A6-457F-9B00-D40889630DCF",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "sound",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "target" : [
+                                    "C9E18D63-197A-4A16-9084-3D03A2EB437F",
+                                    "3731CFDC-2048-45D1-80A7-535712B677E1"
+                                  ]
+                                },
+                                "name" : "tapTarget"
+                              },
+                              "identifier" : "B8FB7E6A-7B71-49B2-A692-7977D9C42EC0",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                }
+              ],
+              "gravity" : [
+                0,
+                0,
+                9.8000001907348633
+              ],
+              "identifier" : "8373DF9A-444B-409C-ACEF-DBBE4899BAFD",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "B46FEED1-3377-42FF-8614-04B297FBC2CD" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "diameter",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.10000000000000001
+                          }
+                        ],
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "gold"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              0.10999999940395355,
+                              0.10999999940395355,
+                              0.55000001192092896,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "type",
+                          {
+                            "typeName" : "String",
+                            "value" : "sphere"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "3731CFDC-2048-45D1-80A7-535712B677E1"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "Eye_L"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.36000001430511475,
+                        2.588090145181426e-17,
+                        -3.9968030474692412e-17,
+                        0,
+                        -2.588090145181426e-17,
+                        0.36000001430511475,
+                        1.4987926129144888e-14,
+                        0,
+                        3.9968030474692412e-17,
+                        -1.4987926129144888e-14,
+                        0.36000001430511475,
+                        0,
+                        0.03046991303563118,
+                        0.049699999392032623,
+                        -0.029999999329447746,
+                        1
+                      ]
+                    }
+                  },
+                  "F967BC82-ACB7-4EB9-9DCA-84593F9A5E11" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "gold"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              0.10999999940395355,
+                              0.10999999940395355,
+                              0.55000001192092896,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "type",
+                          {
+                            "typeName" : "String",
+                            "value" : "sphere"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "C9E18D63-197A-4A16-9084-3D03A2EB437F"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "Eye_R"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.35571345686912537,
+                        -2.611886642479474e-17,
+                        -2.9619094421702677e-17,
+                        0,
+                        2.611886642479474e-17,
+                        0.35571345686912537,
+                        1.2242545810393825e-14,
+                        0,
+                        2.9619094421702677e-17,
+                        -1.2242545810393825e-14,
+                        0.35571345686912537,
+                        0,
+                        -0.032096043229103088,
+                        0.04967857152223587,
+                        -0.029999999329447746,
+                        1
+                      ]
+                    }
+                  }
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Eyes",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.95475536584854126,
+                  1.0723208987428734e-09,
+                  0.29739236831665039,
+                  0,
+                  -0.011377452872693539,
+                  0.99926793575286865,
+                  0.036526452749967575,
+                  0,
+                  -0.29717457294464111,
+                  -0.038257494568824768,
+                  0.95405638217926025,
+                  0,
+                  -0.074659287929534912,
+                  0.011927505023777485,
+                  0.78306001424789429,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  -0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  -1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}
